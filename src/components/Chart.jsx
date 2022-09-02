@@ -73,7 +73,7 @@ const chart = (props) => {
 
   return (
     <div>
-      <div className="w-[940px] h-[640px]">
+      <div className="container mt-8 w-[340px] sm:w-[700px] md:w-[680px] lg:w-[900px]">
         <Line data={data} options={options} />
       </div>
     </div>
