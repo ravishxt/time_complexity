@@ -44,9 +44,15 @@ const form = (props) => {
               value={algo}
             >
               <option value="Bubble Sort">Bubble Sort</option>
+              <option value="Heap Sort">Heap Sort</option>
+              <option value="Merge Sort">Merge Sort</option>
+              <option value="Counting Sort">Counting Sort</option>
+              <option value="Radix Sort">Radix Sort</option>
               <option value="Selection Sort">Selection Sort</option>
               <option value="Quick Sort">Quick Sort</option>
-              <option value="Binary Search">Binary Search</option>
+              <option value="Quick Sort & Binary Search">Quick Sort & Binary Search</option>
+              <option value="Bubble Sort & Binary Search">Bubble Sort & Binary Search</option>
+              <option value="Insertion Sort & Linear Search">Insertion Sort & Linear Search</option>
               <option value="Find Max">Find Max in an array</option>
             </select>
           </div>
