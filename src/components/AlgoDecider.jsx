@@ -10,6 +10,7 @@ import QuickSortBinarySearch from "../algo/quickSortBinarySearch";
 import BubbleSortBinarySearch from "../algo/bubbleSortBinarySearch";
 import InsertionSortLinearSearch from "../algo/insertionSortLinearSearch";
 import FindMax from "../algo/findMax";
+import InsertionSort from "../algo/insertionSort";
 
 const AlgoDecider = (props) => {
   const {
@@ -40,6 +41,13 @@ const AlgoDecider = (props) => {
       case "Heap Sort":
         return (
           <HeapSort
+            iteration={iteration}
+            onExecutionCompletion={executionCompletionHandler}
+          />
+        );
+      case "Insertion Sort":
+        return (
+          <InsertionSort
             iteration={iteration}
             onExecutionCompletion={executionCompletionHandler}
           />

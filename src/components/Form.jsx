@@ -45,6 +45,7 @@ const form = (props) => {
             >
               <option value="Bubble Sort">Bubble Sort</option>
               <option value="Heap Sort">Heap Sort</option>
+              <option value="Insertion Sort">Insertion Sort</option>
               <option value="Merge Sort">Merge Sort</option>
               <option value="Counting Sort">Counting Sort</option>
               <option value="Radix Sort">Radix Sort</option>
