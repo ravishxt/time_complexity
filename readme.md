@@ -5,7 +5,7 @@ This is a simple time complexity analyzer which take random input for various al
 You can select the no. of iterations for every algorithm.
 
 # Live Website Link
-[Time Complexity Analyzer]([https://timecomplexityanalyzer.herokuapp.com/](https://timecomplexity.netlify.app/)
+[Time Complexity Analyzer](https://timecomplexity.netlify.app/)
 
 # Tech Stack
 
